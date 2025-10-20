@@ -289,8 +289,8 @@
                   stroke-width="2"
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 ></path>
-              </svg>
-            </a>.
+              </svg> </a
+            >.
           </div>
           <div
             class="bg-gray-800 p-6 rounded-xl shadow-2xl hover:shadow-highlight/30 transition duration-500 transform hover:-translate-y-1"
@@ -342,7 +342,10 @@
         </p>
 
         <div class="max-w-xl mx-auto bg-gray-800 p-8 rounded-xl shadow-2xl">
-          <form id="contactForm" post="">
+          <form
+            action="https://formsubmit.co/devgodswill741@gmail.com"
+            method="POST"
+          >
             <div class="mb-6">
               <label
                 for="name"
@@ -432,10 +435,6 @@
           &copy; <span id="currentYear"></span> Dev_Godswill. All rights
           reserved.
         </p>
-        <p class="mt-2">
-          Built with <span class="text-red-500">&hearts;</span> and Tailwind
-          CSS.
-        </p>
       </div>
     </footer>
     <style>
@@ -506,7 +505,6 @@
             event.preventDefault(); // Prevent default form submission
 
             const formMessage = document.getElementById("formMessage");
-
             // Clear inputs (optional)
             document.getElementById("name").value = "";
             document.getElementById("email").value = "";
